@@ -1,7 +1,14 @@
 Options -Indexes +SymLinksIfOwnerMatch
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    
+    # Serve main.html as the default index file
+    DirectoryIndex main.html
+
+    # Prevent direct access to specific directories and files
     RewriteRule ^(app|bin|bootstrap|resources|storage|vendor|logs|CHANGELOG.md)(/.*|)$ - [NC,F]
+
+    # Redirect requests for non-existent files or directories to index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php [QSA,L]
