@@ -1,0 +1,1 @@
+[2023-10-21 10:12:34] app.INFO: User admin uploaded new media. ["58"] []

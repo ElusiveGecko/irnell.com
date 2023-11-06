@@ -1,0 +1,34 @@
+Tema: Fördelar och nackdelar av användardeltagande i systemutveckling 
+
+Databas: ACM digital library
+
+Sökfråga: Benefits and challenges with user involvement is software development
+
+Sökord: "User involvement", Benefits, challenges, "Software development", 
+
+
+
+Skapa en sökfråga --> välja ut relevanta sökord
+
+Sökfråga = Vad letar du efteR+ Vilket ämne vill du undersöka? Sammanfatta idn problemformulering
+
+Sökord = Ämnesord, Nyckelord, Subject terms, Keywords som t.ex. #(sökord)
+
+När man har sökorder kan man ta med synonymer till sökorden eller relaterade begrepp
+
+
+
+
+
+Länkar i ordning:
+https://uppsala.instructure.com/courses/79399/files/5467607?module_item_id=839833
+
+https://uppsala.instructure.com/courses/79399/files/5467579?module_item_id=839842
+
+https://libguides.ub.uu.se/c.php?g=91840&p=593899
+
+https://dl-acm-org.ezproxy.its.uu.se/search/advanced
+
+https://www.tandfonline.com/doi/abs/10.1080/01449290301782
+
+https://www.tandfonline.com/doi/abs/10.1080/014492996120049?src=recsys

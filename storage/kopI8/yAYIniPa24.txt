@@ -1,0 +1,57 @@
+Grovmall:
+
+Business event: en kund köper en cupcake
+Business use case and number: Lägg till kundens order i systemet
+Trigger: Kundens beställning
+Precondition: Behovet av minst en cupcake
+
+Entiteter
+Interested stakeholders: Sarah, bageripersonal, datasystemet
+Active stakeholders: Kund, bagare
+
+Processer och in-/utdata
+Hitta kundens order i systemet
+Leveransinformation hämtas
+Sammanlänka kunden med ett kund/ordernummer
+Försäkra sig om att ingredienserna finns i lager
+Printa en beställning
+Printen hämtas av bagaren
+Cupcakes bakas
+Leveransinformation lämnas till leverantör
+Cupcakes levereras (hur)? —--> Alternativt cupcakes hämtas
+Om de hämtas skall ett upphämtningsmeddelande skapas
+Önska kunden en trevlig dag
+
+Outcome
+Kunden får sina cupcakes levererade (alternativt hämtar upp dem), får ett trevligt fika till sitt firande och är nöjd med transaktionen.
+
+
+
+Bilder från whiteboard:
+DFD: https://irnell.com/kopI8/qIQolAWi00.heic
+
+ERD: https://irnell.com/kopI8/TaNazIgI82.heic
+png:
+ 
+
+ERD
+Entiteter och attribut:
+
+Kund: Förnam, efternamn, *telefonnummer, adress
+Status: *StatusNr, Kategori, Datumtid, ^personalID, ^OrderNr
+Personal: *Personalnummer
+Order: *OrderNr, ^KundNr, Leveranstyp (utkörning eller avhämtning) - om utkörning: leveransadress
+Lager: *ArtikelNr, Kvantitet, Namn
+Produkt: *ProduktNr, namn,
+Produktrad: *ProduktRadsNr, ^art. nr, ^ProduktNr, kvantitet
+Orderrad: *OrderradNr, ^Ordernummer, ^ProduktNr, ^ProduktNr,, kvantitet, motiv
+
+* = identifieringsattribut
+^ = kopplingsattribut
+
+
+
+
+ Att göra : 
+
+Ändra alla processer i dfd till verb: beställning,  bakning av cupcakes

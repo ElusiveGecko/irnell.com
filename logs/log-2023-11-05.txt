@@ -1,0 +1,2 @@
+[2023-11-05 14:45:42] app.INFO: Login failed with username='edvin@irnell.com', ip=2a02:aa1:1644:32ed:c585:bb92:526c:92b9. [] []
+[2023-11-05 14:45:54] app.INFO: Login failed with username='edvin@irnell.com', ip=2a02:aa1:1644:32ed:c585:bb92:526c:92b9. [] []
